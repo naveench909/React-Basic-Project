@@ -1,30 +1,26 @@
-import { FaCreditCard, FaBook, FaBriefcase } from 'react-icons/fa';
-import React from 'react';
-const sublinks = [
+export default [
   {
-    page: 'products',
-    links: [
-      { label: 'payment', icon: <FaCreditCard />, url: '/products' },
-      { label: 'terminal', icon: <FaCreditCard />, url: '/products' },
-      { label: 'connect', icon: <FaCreditCard />, url: '/products' },
-    ],
+    id: 1,
+    title: 'Samsung Galaxy S7',
+    price: 599.99,
+    img:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1583368215/phone-2_ohtt5s.png',
+    amount: 1,
   },
   {
-    page: 'developers',
-    links: [
-      { label: 'plugins', icon: <FaBook />, url: '/products' },
-      { label: 'libraries', icon: <FaBook />, url: '/products' },
-      { label: 'help', icon: <FaBook />, url: '/products' },
-      { label: 'billing', icon: <FaBook />, url: '/products' },
-    ],
+    id: 2,
+    title: 'google pixel ',
+    price: 499.99,
+    img:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1583371867/phone-1_gvesln.png',
+    amount: 1,
   },
   {
-    page: 'company',
-    links: [
-      { label: 'about', icon: <FaBriefcase />, url: '/products' },
-      { label: 'customers', icon: <FaBriefcase />, url: '/products' },
-    ],
+    id: 3,
+    title: 'Xiaomi Redmi Note 2',
+    price: 699.99,
+    img:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1583368224/phone-3_h2s6fo.png',
+    amount: 1,
   },
 ];
-
-export default sublinks;
